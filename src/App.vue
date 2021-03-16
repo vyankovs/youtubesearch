@@ -16,7 +16,7 @@ import SearchBar from './components/SearchBar';
 import VideoList from './components/VideoList';
 import VideoDetail from './components/VideoDetail'
 
-const API_KEY = 'AIzaSyBgJrJ7JmSsHJvh87bNDqNrXYPiOekHWaw';
+const API_KEY = process.env.YOUTUBE_API_KEY;
 
 export default {
    name: 'App',
