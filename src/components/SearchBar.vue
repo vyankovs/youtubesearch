@@ -6,9 +6,11 @@
 
 <script>
     export default {
+        
         name: 'SearchBar',
         methods: {
             onInput: function(event){
+                console.log(123);
                 this.$emit('termChange', event.target.value)
             }
         }
